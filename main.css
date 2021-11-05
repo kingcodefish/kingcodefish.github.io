@@ -1,3 +1,24 @@
+body {
+  background-color: rgb(194, 241, 255);
+}
+
+#title { 
+  font-family: 'Pacifico', cursive;
+}
+
+header.border-bottom {
+  border-bottom: 1px solid rgb(155, 155, 155) !important;
+}
+
+#bg-emoji {
+  position: fixed;
+  left: -175px;
+  top: 50vh;
+  transform: translateY(-50%);
+  font-size: 250px;
+  opacity: 0.2;
+}
+
 .icon-list {
   padding-left: 0;
   list-style: none;
